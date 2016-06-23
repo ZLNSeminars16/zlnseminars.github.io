@@ -1,6 +1,6 @@
 body {
       font-family: 'Pinyon Script', cursive;
-      background-image: url(https://static.pexels.com/photos/62275/pexels-photo-62275.jpeg);
+      background-color: #4169e1;
       background-size: cover;
       opacity: 1.2;
       margin: 0;
@@ -8,12 +8,6 @@ body {
     
     header {
     
-background: -moz-linear-gradient(left, rgba(255,247,201,1) 0%, rgba(249,223,177,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,247,201,1)), color-stop(100%, rgba(249,223,177,1)));
-background: -webkit-linear-gradient(left, rgba(255,247,201,1) 0%, rgba(249,223,177,1) 100%);
-background: -o-linear-gradient(left, rgba(255,247,201,1) 0%, rgba(249,223,177,1) 100%);
-background: -ms-linear-gradient(left, rgba(255,247,201,1) 0%, rgba(249,223,177,1) 100%);
-background: linear-gradient(to right, rgba(255,247,201,1) 0%, rgba(249,223,177,1) 100%);
 
     }
     

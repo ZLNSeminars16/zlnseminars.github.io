@@ -26,9 +26,12 @@ $email_subject = "New Form submission";
 $email_body = "You have received a new message from the user $name.\n".
     "Here is the message:\n $message".
     
-$to = "tom@amazing-designs.com";//<== update the email address
+$to = "info@zlnseminars.com";//<== update the email address
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
+$headers .= "Cc: someone@domain.com \r\n";
+$headers .= "Bcc: someoneelse@domain.com \r\n";
+
 //Send the email!
 mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.

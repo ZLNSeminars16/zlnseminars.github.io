@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -21,6 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <script type="js/gallery.js"></script>
     <script src="https://use.typekit.net/asj8bej.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
@@ -98,190 +99,130 @@
         </div>
         <!-- /.row -->
   
+<div class="row">
+  <div class="column">
+    <img src="images/Arrow.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images/Blue-Butterfly-poster.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images/Limitless-poster.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images/Loving-Yourself-poster.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+   <div class="column">
+    <img src="images/Maple-Leaf-poster.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images/Night-Butterflies-poster.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images/Paintbrush-poster.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images/Stacked-Rocks-poster.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images/Water-Ripple-poster.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+  </div>
+</div>
 
-  <section>
-  <div class="container gal-container">
-    <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-      <div class="box">
-        <a href="#" data-toggle="modal" data-target="#1">
-          <img src="images/Arrow.jpg">
-        </a>
-        <div class="modal fade" id="1" tabindex="-1" role="dialog">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-              <div class="modal-body">
-                <img src="images/Arrow.jpg">
-              </div>
-                <div class="col-md-12 description">
-                  <h4>811-101-CSA</h4>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 9</div>
+      <img src="images/Arrow.jpg" style="width:100%">
     </div>
-    <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-      <div class="box">
-        <a href="#" data-toggle="modal" data-target="#2">
-          <img src="images/Blue-Butterfly-poster.jpg">
-        </a>
-        <div class="modal fade" id="2" tabindex="-1" role="dialog">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-              <div class="modal-body">
-                <img src="images/Blue-Butterfly-poster.jpg">
-              </div>
-                <div class="col-md-12 description">
-                  <h4>811-101-BB</h4>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 9</div>
+      <img src="images/Blue-Butterfly-poster.jpg" style="width:100%">
     </div>
-    <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-      <div class="box">
-        <a href="#" data-toggle="modal" data-target="#3">
-          <img src="images/Limitless-poster.jpg">
-        </a>
-        <div class="modal fade" id="3" tabindex="-1" role="dialog">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-              <div class="modal-body">
-                <img src="images/Limitless-poster.jpg">
-              </div>
-                <div class="col-md-12 description">
-                  <h4>811-101-LL</h4>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 9</div>
+      <img src="images/Limitless-poster.jpg" style="width:100%">
     </div>
-    <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-      <div class="box">
-        <a href="#" data-toggle="modal" data-target="#4">
-          <img src="images/Loving-Yourself-poster.jpg">
-        </a>
-        <div class="modal fade" id="4" tabindex="-1" role="dialog">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-              <div class="modal-body">
-                <img src="images/Loving-Yourself-poster.jpg">
-              </div>
-                <div class="col-md-12 description">
-                  <h4>811-101-LM</h4>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 9</div>
+      <img src="images/Loving-Yourself-poster.jpg" style="width:100%">
     </div>
-    <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-      <div class="box">
-        <a href="#" data-toggle="modal" data-target="#5">
-          <img src="images/Maple-Leaf-poster.jpg">
-        </a>
-        <div class="modal fade" id="5" tabindex="-1" role="dialog">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-              <div class="modal-body">
-                <img src="images/Maple-Leaf-poster.jpg">
-              </div>
-                <div class="col-md-12 description">
-                  <h4>811-101-ML</h4>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 9</div>
+      <img src="images/Maple-Leaf-poster.jpg" style="width:100%">
     </div>
-    <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-      <div class="box">
-        <a href="#" data-toggle="modal" data-target="#6">
-          <img src="images/Night-Butterflies-poster.jpg">
-        </a>
-        <div class="modal fade" id="6" tabindex="-1" role="dialog">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-              <div class="modal-body">
-                <img src="images/Night-Butterflies-poster.jpg">
-              </div>
-                <div class="col-md-12 description">
-                  <h4>811-101-NB</h4>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 9</div>
+      <img src="images/Night-Butterflies-poster.jpg" style="width:100%">
     </div>
-    <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-      <div class="box">
-        <a href="#" data-toggle="modal" data-target="#7">
-          <img src="images/Paintbrush-poster.jpg">
-        </a>
-        <div class="modal fade" id="7" tabindex="-1" role="dialog">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-              <div class="modal-body">
-                <img src="images/Paintbrush-poster.jpg">
-              </div>
-                <div class="col-md-12 description">
-                  <h4>811-101-PB</h4>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 9</div>
+      <img src="images/Paintbrush-poster.jpg" style="width:100%">
     </div>
-    <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-      <div class="box">
-        <a href="#" data-toggle="modal" data-target="#8">
-          <img src="images/Stacked-Rocks-poster.jpg">
-        </a>
-        <div class="modal fade" id="8" tabindex="-1" role="dialog">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-              <div class="modal-body">
-                <img src="images/Stacked-Rocks-poster.jpg">
-              </div>
-                <div class="col-md-12 description">
-                  <h4>811-101-SR</h4>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 9</div>
+      <img src="images/Stacked-Rocks-poster.jpg" style="width:100%">
     </div>
-    <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-      <div class="box">
-        <a href="#" data-toggle="modal" data-target="#9">
-          <img src="images/Water-Ripple-poster.jpg">
-        </a>
-        <div class="modal fade" id="9" tabindex="-1" role="dialog">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-              <div class="modal-body">
-                <img src="images/Water-Ripple-poster.jpg">
-              </div>
-                <div class="col-md-12 description">
-                  <h4>811-101-WR</h4>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+    <div class="mySlides">
+      <div class="numbertext">9 / 9</div>
+      <img src="images/Water-Ripple-poster.jpg" style="width:100%">
     </div>
-</section>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/Arrow.jpg" onclick="currentSlide(1)" alt="811-101-CSA">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/Blue-Butterfly-poster.jpg" onclick="currentSlide(2)" alt="811-101-BB">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/Limitless-poster.jpg" onclick="currentSlide(3)" alt="811-101-LL">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/Loving-Yourself-poster.jpg" onclick="currentSlide(4)" alt="811-101-LM">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/Maple-Leaf-poster.jpg" onclick="currentSlide(5)" alt="811-101-ML">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/Night-Butterflies-poster.jpg" onclick="currentSlide(6)" alt="811-101-NB">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/Paintbrush-poster.jpg" onclick="currentSlide(7)" alt="811-101-PB">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/Stacked-Rocks-poster.jpg" onclick="currentSlide(8)" alt="811-101-SR">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/Water-Ripple-poster.jpg" onclick="currentSlide(9)" alt="811-101-WR">
+    </div>
+  </div>
+</div>
+ 
 
 
 </body>

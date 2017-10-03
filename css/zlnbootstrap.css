@@ -6941,8 +6941,8 @@ label{
   height: 40px;
   top: -40px;
   padding: 10px 25px;
-  background-color: rgba(0,0,0,0.5);
-  color: #fff;
+  background-color: #dadbdc;
+  color: #662d91;
   text-align: left;
 }
 .gal-container .description h4{

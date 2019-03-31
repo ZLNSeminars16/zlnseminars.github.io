@@ -601,7 +601,7 @@ img,
 }
 .service-section .service-offer-item h3>a {text-transform: capitalize; color:#000;}
 .service-section .service-offer-item p {color: #000; margin: 25px 0 20px;}
-.service-section .service-offer-item:hover {background: #f4385f;}
+.service-section .service-offer-item:hover {background: #fff;}
 .service-section .service-offer-item:hover>.service-icon>span {color: #662d91;}
 .service-section .service-offer-item a {text-transform: capitalize; color: #662d91;}
 .service-section .service-offer-item a i {

@@ -1364,23 +1364,23 @@ img,
 	background: url(../images/about-us/enar-page-banner-about.jpg) no-repeat center;
 	background-size: cover;
 }
-.Enar-page-banner .Enar-page-about-opact {
+.Enar-page-about .Enar-page-about-opact {
 	height: 400px;
 	background: rgba(0,0,0,0.2);
 	padding-top: 140px;
 }
-.Enar-page-banner .Enar-page-about-opact h1 {color: #fff; margin-bottom: 25px;}
-.Enar-page-banner .Enar-page-about-opact ul>li {display: inline-block; color: #fff;}
-.Enar-page-banner .Enar-page-about-opact ul>li>span {
+.Enar-page-about .Enar-page-about-opact h1 {color: #fff; margin-bottom: 25px;}
+.Enar-page-about .Enar-page-about-opact ul>li {display: inline-block; color: #fff;}
+.Enar-page-about .Enar-page-about-opact ul>li>span {
 	display: inline-block; 
 	width: 47px;
 	border-bottom: solid 2px #fff;
 	vertical-align: middle;
 	margin-right: 8px;
 }
-.Enar-page-banner .Enar-page-about-opact ul>li>a {text-transform: capitalize;}
-.Enar-page-banner .Enar-page-about-opact ul>li:last-child>a,
-.Enar-page-banner .Enar-page-about-opact ul>li>a:hover {color: #000;}
+.Enar-page-about .Enar-page-about-opact ul>li>a {text-transform: capitalize;}
+.Enar-page-about .Enar-page-about-opact ul>li:last-child>a,
+.Enar-page-about .Enar-page-about-opact ul>li>a:hover {color: #000;}
 
 /*============================= About us =========================*/
 .About-us-section {margin: 130px 0 40px;}

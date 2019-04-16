@@ -597,6 +597,11 @@ img,
 	color: #662d91;
 	font-size: 80px;
 }
+.service-section .service-offer-item>.service-icon {margin-bottom: 14px;}
+.service-section .service-offer-item>.service-icon>.fa-book-open {
+	color: #662d91;
+	font-size: 80px;
+}
 
 .service-section .service-offer-item:hover>.service-icon>.flaticon {color: #000;}
 .service-section .service-offer-item>.service-icon>span {
@@ -608,6 +613,15 @@ img,
 }
 
 .service-section .service-offer-item:hover>.service-icon>.fa-users {color: #000;}
+.service-section .service-offer-item>.service-icon>span {
+	display: inline-block;
+	font-size: 40px;
+	color: rgba(255,255,255,0.7);
+	padding-top: 10px;
+	font-weight: 300;
+}
+
+.service-section .service-offer-item:hover>.service-icon>.fa-book-open {color: #000;}
 .service-section .service-offer-item>.service-icon>span {
 	display: inline-block;
 	font-size: 40px;
